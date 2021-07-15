@@ -1,0 +1,34 @@
+
+{%- macro field_errors(field) -%}
+    {% if field.errors %}
+        {%- for error in field.errors -%}
+        <span class="help-block">{{error}}</span>
+        {%- endfor -%}
+    {% endif %}
+{%- endmacro -%}
+
+
+{%- macro form_field_errors(field) -%}
+{{ field.label(class="form-control-label") }}
+{% if field.errors %}
+    {{ field(class="form-control form-control-lg is-invalid") }}
+    <div class="invalid-feedback">
+        {% for error in field.errors %}
+            <span>{{ error }}</span>
+        {% endfor %}
+    </div>
+{% else %}
+    {{ field(class="form-control form-control-lg") }}
+{% endif %}
+{%- endmacro -%}
+
+
+{%- macro post_field(post) -%}
+  <!-- Modal -->
+      <div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="deleteModalLabel" aria-hidden="true">
+          {% include "create_comment.html" %}
+      </div>
+
+
+
+{%- endmacro -%}

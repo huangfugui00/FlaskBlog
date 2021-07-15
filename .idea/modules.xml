@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Flask_Blog.iml" filepath="$PROJECT_DIR$/.idea/Flask_Blog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../flask-vue-combine/combining-flask-with-vue-master/.idea/combining-flask-with-vue-master.iml" filepath="$PROJECT_DIR$/../flask-vue-combine/combining-flask-with-vue-master/.idea/combining-flask-with-vue-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../self_flask_blog/.idea/self_flask_blog.iml" filepath="$PROJECT_DIR$/../self_flask_blog/.idea/self_flask_blog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../.idea/webDev.iml" filepath="$PROJECT_DIR$/../.idea/webDev.iml" />
+    </modules>
+  </component>
+</project>
